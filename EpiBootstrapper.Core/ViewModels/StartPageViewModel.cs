@@ -1,6 +1,6 @@
-﻿using Ds.Core.Models.Pages;
+﻿using EpiBootstrapper.Core.Models.Pages;
 
-namespace Ds.Core.ViewModels
+namespace EpiBootstrapper.Core.ViewModels
 {
 	public class StartPageViewModel : PageViewModelBase<StartPage>
 	{

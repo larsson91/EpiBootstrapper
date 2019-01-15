@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System.Web.Mvc;
 
-namespace Ds
+namespace EpiBootstrapper
 {
     public class EPiServerApplication : EPiServer.Global
     {

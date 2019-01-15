@@ -1,4 +1,4 @@
-﻿namespace Ds.Core.Infrastructure
+﻿namespace  EpiBootstrapper.Core.Infrastructure
 {
 	public static class Constants
 	{

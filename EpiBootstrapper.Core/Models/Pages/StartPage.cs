@@ -1,6 +1,6 @@
-﻿using Ds.Core.Infrastructure;
+﻿using  EpiBootstrapper.Core.Infrastructure;
 
-namespace Ds.Core.Models.Pages
+namespace  EpiBootstrapper.Core.Models.Pages
 {
 	[PageContentType(
 		GroupName = "För administratörer",

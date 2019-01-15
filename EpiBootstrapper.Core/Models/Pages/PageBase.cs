@@ -3,7 +3,7 @@ using EPiServer.Core;
 using EPiServer.DataAbstraction;
 using EPiServer.DataAnnotations;
 
-namespace Ds.Core.Models.Pages
+namespace  EpiBootstrapper.Core.Models.Pages
 {
 	public abstract class PageBase : PageData
 	{

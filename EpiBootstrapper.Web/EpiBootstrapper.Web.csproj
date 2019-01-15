@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Ds</RootNamespace>
-    <AssemblyName>Ds</AssemblyName>
+    <RootNamespace>EpiBootstrapper</RootNamespace>
+    <AssemblyName>EpiBootstrapper</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <MvcBuildViews>true</MvcBuildViews>
     <UseIISExpress>false</UseIISExpress>
@@ -250,7 +250,7 @@
   <ItemGroup>
     <ProjectReference Include="..\EpiBootstrapper.Core\EpiBootstrapper.Core.csproj">
       <Project>{346f8a8d-cfb9-460e-b64d-a2d27b06fbb2}</Project>
-      <Name>Ds.Core</Name>
+      <Name>EpiBootstrapper.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <ProjectExtensions>
@@ -261,7 +261,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>0</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://ds.local</IISUrl>
+          <IISUrl>http://epibootstrap.local</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

@@ -1,6 +1,6 @@
 ﻿using EPiServer.DataAnnotations;
 
-namespace Ds.Core.Infrastructure
+namespace  EpiBootstrapper.Core.Infrastructure
 {
 	public class ThumbnailImageAttribute : ImageUrlAttribute
 	{

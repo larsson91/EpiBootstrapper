@@ -1,9 +1,9 @@
 ﻿using System.Web.Mvc;
-using Ds.Core.Models.Pages;
-using Ds.Core.ViewModels;
+using EpiBootstrapper.Core.Models.Pages;
+using  EpiBootstrapper.Core.ViewModels;
 using EPiServer.Web.Mvc;
 
-namespace Ds.Controllers
+namespace EpiBootstrapper.Controllers
 {
 	public class StartPageController : PageController<StartPage>
 	{

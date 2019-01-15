@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using EPiServer.DataAnnotations;
 
-namespace Ds.Core.Infrastructure
+namespace  EpiBootstrapper.Core.Infrastructure
 {
 	public class PageContentTypeAttribute : ContentTypeAttribute
 	{

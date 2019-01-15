@@ -7,8 +7,8 @@
     <ProjectGuid>{346F8A8D-CFB9-460E-B64D-A2D27B06FBB2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Ds.Core</RootNamespace>
-    <AssemblyName>Ds.Core</AssemblyName>
+    <RootNamespace>EpiBootstrapper.Core</RootNamespace>
+    <AssemblyName>EpiBootstrapper.Core</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

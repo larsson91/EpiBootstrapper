@@ -1,8 +1,8 @@
-﻿using Ds.Core.Models.Pages;
+﻿using  EpiBootstrapper.Core.Models.Pages;
 using EPiServer.ServiceLocation;
 using EPiServer.Web.Routing;
 
-namespace Ds.Core.ViewModels
+namespace EpiBootstrapper.Core.ViewModels
 {
 	public abstract class PageViewModelBase<TModel> where TModel : class
 	{

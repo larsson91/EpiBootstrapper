@@ -1,4 +1,4 @@
-﻿namespace Ds.Core.ViewModels
+﻿namespace EpiBootstrapper.Core.ViewModels
 {
 	public class LayoutViewModel
 	{
