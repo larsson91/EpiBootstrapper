@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpiBootstrapper.Web", "EpiBootstrapper.Web\EpiBootstrapper.Web.csproj", "{57AA11D6-FCBA-4A30-B42F-8D6BFD91A39B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpiBootstrapper.Core", "EpiBootstrapper.Core\EpiBootstrapper.Core.csproj", "{346F8A8D-CFB9-460E-B64D-A2D27B06FBB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57AA11D6-FCBA-4A30-B42F-8D6BFD91A39B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57AA11D6-FCBA-4A30-B42F-8D6BFD91A39B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57AA11D6-FCBA-4A30-B42F-8D6BFD91A39B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57AA11D6-FCBA-4A30-B42F-8D6BFD91A39B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{346F8A8D-CFB9-460E-B64D-A2D27B06FBB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{346F8A8D-CFB9-460E-B64D-A2D27B06FBB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{346F8A8D-CFB9-460E-B64D-A2D27B06FBB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{346F8A8D-CFB9-460E-B64D-A2D27B06FBB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A01F75AA-2EF4-423C-A2CA-22EACEF85CA6}
+	EndGlobalSection
+EndGlobal
