@@ -16,7 +16,6 @@ namespace EpiBootstrapper
 		        "~/Views/Pages/{1}/{0}.cshtml",
 		        "~/Views/Blocks/{0}.cshtml",
 		        "~/Views/Shared/{0}.cshtml"
-
 	        }).ToArray();
 		}
     }
