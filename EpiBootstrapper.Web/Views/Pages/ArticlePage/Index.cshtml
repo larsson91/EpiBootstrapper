@@ -1,0 +1,10 @@
+﻿@model EpiBootstrapper.Core.ViewModels.ArticlePageViewModel
+
+
+<h1>@Model.CurrentPage.Name</h1>
+
+@foreach (var category in Model.CurrentPage.Category)
+{
+    <p>@category</p>
+}
+ 

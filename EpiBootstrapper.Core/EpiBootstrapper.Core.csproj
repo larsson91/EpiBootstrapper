@@ -149,10 +149,12 @@
     <Compile Include="Infrastructure\PageContentTypeAttribute.cs" />
     <Compile Include="Infrastructure\ThumbnailImageAttribute.cs" />
     <Compile Include="Models\Pages\PageBase.cs" />
+    <Compile Include="Models\Pages\ArticlePage.cs" />
     <Compile Include="Models\Pages\StartPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\LayoutViewModel.cs" />
     <Compile Include="ViewModels\PageViewModelBase.cs" />
+    <Compile Include="ViewModels\ArticlePageViewModel.cs" />
     <Compile Include="ViewModels\StartPageViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
