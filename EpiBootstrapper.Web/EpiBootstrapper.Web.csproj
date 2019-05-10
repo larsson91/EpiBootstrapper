@@ -120,6 +120,9 @@
     <Reference Include="EPiServer.Web.WebControls, Version=11.5.4.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
       <HintPath>..\packages\EPiServer.CMS.AspNet.11.5.4\lib\net461\EPiServer.Web.WebControls.dll</HintPath>
     </Reference>
+    <Reference Include="Geta.EpiCategories, Version=1.2.8.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Geta.EpiCategories.1.2.8\lib\net461\Geta.EpiCategories.dll</HintPath>
+    </Reference>
     <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
       <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
     </Reference>
@@ -224,6 +227,7 @@
     <Folder Include="Static\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="lang\geta.epicategories.xml" />
     <Content Include="Views\Web.config" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
@@ -235,6 +239,7 @@
     <Content Include="modules\_protected\Shell\Shell.zip" />
     <Content Include="modules\_protected\CMS\web.config" />
     <Content Include="modules\_protected\CMS\CMS.zip" />
+    <Content Include="modules\_protected\geta-epicategories\geta-epicategories.zip" />
     <None Include="packages.config" />
     <Content Include="Web.Master.config" />
     <Content Include="Views\Pages\StartPage\Index.cshtml" />

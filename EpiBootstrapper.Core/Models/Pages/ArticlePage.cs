@@ -1,4 +1,8 @@
-﻿using  EpiBootstrapper.Core.Infrastructure;
+﻿using System.Collections.Generic;
+using  EpiBootstrapper.Core.Infrastructure;
+using EPiServer.Core;
+using Geta.EpiCategories;
+using Geta.EpiCategories.DataAnnotations;
 
 namespace  EpiBootstrapper.Core.Models.Pages
 {
@@ -9,7 +13,9 @@ namespace  EpiBootstrapper.Core.Models.Pages
 		Description = ""
 	)]
 	[ThumbnailImage(Constants.ContentTypes.Graphics.House)]
-	public class ArticlePage : PageBase
+	public class ArticlePage : PageBase, ICategorizableContent
 	{
+		[Categories]
+		public virtual IList<ContentReference> Categories { get; set; }
 	}
 }
