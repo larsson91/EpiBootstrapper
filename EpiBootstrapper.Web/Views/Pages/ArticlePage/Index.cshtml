@@ -3,8 +3,15 @@
 
 <h1>@Model.CurrentPage.Name</h1>
 
+<h3>old cats</h3>
 @foreach (var category in Model.CurrentPage.Category)
 {
     <p>@category</p>
+}
+
+<h3>new cats</h3>
+@foreach (var cat in Model.Categories)
+{
+    <p>@cat.Name</p>
 }
  

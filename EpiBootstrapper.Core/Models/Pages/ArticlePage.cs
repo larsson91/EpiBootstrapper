@@ -17,5 +17,7 @@ namespace  EpiBootstrapper.Core.Models.Pages
 	{
 		[Categories]
 		public virtual IList<ContentReference> Categories { get; set; }
+
+
 	}
 }
