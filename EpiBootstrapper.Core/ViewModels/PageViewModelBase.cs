@@ -13,7 +13,7 @@ namespace EpiBootstrapper.Core.ViewModels
 			_pageRouteHelper = ServiceLocator.Current.GetInstance<IPageRouteHelper>();
 			Layout = new LayoutViewModel();
 			var currentPage = (CurrentPage as PageBase);
-			Layout.PageTitle = currentPage == null ? "Danderyds sjukhus" : currentPage.Header + " - Danderyds sjukhus";
+			Layout.PageTitle = currentPage == null ? "Epi Bootstrapper" : currentPage.Header + " - Epi Bootstrapper";
 		}
 
 		public TModel CurrentPage => _pageRouteHelper.Page as TModel;
