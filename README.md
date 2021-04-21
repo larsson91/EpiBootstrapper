@@ -67,7 +67,7 @@ c. Den ska också hålla koll på vilken sida man är på just nu med hjälp av 
 # Labb 6 (BE-fokus)
 Skapa ett schemalagt jobb som hämtar data från valfritt api, t.ex. katter, pokemon etc. 
 
-Skapa sedan sidor utifrån denna och placera under en utpekad nod. (Varför vill man göra detta? jo, för att kunna utgå från material men ha möjlighet att redigera, + gratis url, struktur & rättigheter)
+Skapa sedan sidor utifrån detta jobb och placera under en utpekad nod. (Varför vill man göra detta? jo, för att kunna utgå från material men ha möjlighet att redigera, + gratis url, struktur & rättigheter)
 
 Tips: För att hämta startsidans ContentReference, använd ContentReference.StartPage
 
