@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 using EpiBootstrapper.Core.Models.Pages;
-using  EpiBootstrapper.Core.ViewModels;
+using EpiBootstrapper.ViewModels;
 using EPiServer.Web.Mvc;
 
 namespace EpiBootstrapper.Controllers

@@ -10,13 +10,16 @@ namespace EpiBootstrapper
             AreaRegistration.RegisterAllAreas();
 
 			//Tip: Want to call the EPiServer API on startup? Add an initialization module instead (Add -> New Item.. -> EPiServer -> Initialization Module)
-			var razorEngine = ViewEngines.Engines.OfType<RazorViewEngine>().First();
-	        razorEngine.ViewLocationFormats = razorEngine.ViewLocationFormats.Concat(new string[]
-	        {
-		        "~/Views/Pages/{1}/{0}.cshtml",
-		        "~/Views/Blocks/{0}.cshtml",
-		        "~/Views/Shared/{0}.cshtml"
-	        }).ToArray();
+            var razorEngine = ViewEngines.Engines.OfType<RazorViewEngine>().First();
+            razorEngine.ViewLocationFormats = razorEngine.ViewLocationFormats.Concat(new string[]
+            {
+                "~/Views/Pages/{1}/{0}.cshtml"
+            }).ToArray();
+
+            razorEngine.PartialViewLocationFormats = razorEngine.ViewLocationFormats.Concat(new string[]
+            {
+                "~/Views/Blocks/{0}.cshtml"
+            }).ToArray();
 		}
     }
 }

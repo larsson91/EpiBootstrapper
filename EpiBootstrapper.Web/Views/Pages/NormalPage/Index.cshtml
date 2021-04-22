@@ -1,0 +1,10 @@
+﻿@model EpiBootstrapper.ViewModels.NormalPageViewModel
+
+<h1>@Model.CurrentPage.Header</h1>
+
+@foreach (var category in Model.CurrentPage.Category)
+{
+    <p>@category</p>
+}
+
+@Html.PropertyFor(x => x.CurrentPage.ContentArea)

@@ -1,4 +1,4 @@
-﻿namespace EpiBootstrapper.Core.ViewModels
+﻿namespace EpiBootstrapper.ViewModels
 {
 	public class LayoutViewModel
 	{
