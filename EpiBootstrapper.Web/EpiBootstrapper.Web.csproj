@@ -221,6 +221,7 @@
   <ItemGroup>
     <Compile Include="Controllers\ArticleListingPageController.cs" />
     <Compile Include="Controllers\ArticlePageController.cs" />
+    <Compile Include="Controllers\BlogPageController.cs" />
     <Compile Include="Controllers\NormalPageController.cs" />
     <Compile Include="Controllers\StartPageController.cs" />
     <Compile Include="Global.asax.cs">
@@ -230,6 +231,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\ArticleListingPageViewModel.cs" />
     <Compile Include="ViewModels\ArticlePageViewModel.cs" />
+    <Compile Include="ViewModels\BlogPageViewModel.cs" />
     <Compile Include="ViewModels\LayoutViewModel.cs" />
     <Compile Include="ViewModels\NormalPageViewModel.cs" />
     <Compile Include="ViewModels\PageViewModelBase.cs" />
@@ -256,6 +258,8 @@
     <Content Include="Views\Pages\NormalPage\Index.cshtml" />
     <Content Include="Views\Blocks\ExampleBlock.cshtml" />
     <Content Include="Views\Pages\ArticleListingPage\Index.cshtml" />
+    <Content Include="Views\Pages\BlogPage\Index.cshtml" />
+    <Content Include="Views\Blocks\DemoBlock.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.Master.config</DependentUpon>
       <SubType>Designer</SubType>

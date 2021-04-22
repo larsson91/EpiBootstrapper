@@ -5,5 +5,7 @@
 
 @foreach (var child in Model.Children)
 {
-    <p>@child.Header</p>
+    <div>
+        <a href="@Url.ContentUrl(child.ContentLink)">@child.Header</a>
+    </div>
 }

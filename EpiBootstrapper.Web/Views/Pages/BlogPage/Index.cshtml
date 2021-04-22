@@ -1,0 +1,10 @@
+﻿@model EpiBootstrapper.ViewModels.BlogPageViewModel
+
+
+<h1>@Model.CurrentPage.Header</h1>
+
+<p>@Html.PropertyFor(m => m.CurrentPage.XPreamble)</p>
+
+
+
+<a href="@Url.ContentUrl(Model.CurrentPage.Image)">länk</a>
