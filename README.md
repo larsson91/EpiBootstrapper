@@ -3,6 +3,11 @@ Ett bra projekt att utgå ifrån för dig som ska bygga epi!
 
 # Labb
 **Setup**
+
+Ladda ner .Net Framework 4.8 (eller 4.7.1)
+
+Ladda ner SQL Server Management Studio
+
 a. Sätt upp siten i IIS (domän: epibootstrap.local)
 
 b. Lägg till epibootstrap.local i hosts-filen som ligger `C:\Windows\System32\drivers\etc` på egen rad: `127.0.0.1	epibootstrap.local`
