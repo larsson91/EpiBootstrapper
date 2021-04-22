@@ -1,0 +1,9 @@
+﻿@model EpiBootstrapper.ViewModels.ArticleListingPageViewModel
+
+
+<h1>@Model.CurrentPage.Header</h1>
+
+@foreach (var child in Model.Children)
+{
+    <p>@child.Header</p>
+}

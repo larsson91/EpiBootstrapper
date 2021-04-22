@@ -152,6 +152,7 @@
     <Compile Include="Infrastructure\PageContentTypeAttribute.cs" />
     <Compile Include="Infrastructure\ThumbnailImageAttribute.cs" />
     <Compile Include="Models\Blocks\ExampleBlock.cs" />
+    <Compile Include="Models\Pages\ArticleListingPage.cs" />
     <Compile Include="Models\Pages\NormalPage.cs" />
     <Compile Include="Models\Pages\PageBase.cs" />
     <Compile Include="Models\Pages\ArticlePage.cs" />
