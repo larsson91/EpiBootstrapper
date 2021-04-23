@@ -154,6 +154,7 @@
     <Compile Include="Infrastructure\ThumbnailImageAttribute.cs" />
     <Compile Include="Models\Blocks\DemoBlock.cs" />
     <Compile Include="Models\Blocks\ExampleBlock.cs" />
+    <Compile Include="Models\Media\ImageFile.cs" />
     <Compile Include="Models\Pages\ArticleListingPage.cs" />
     <Compile Include="Models\Pages\BlogPage.cs" />
     <Compile Include="Models\Pages\NormalPage.cs" />
@@ -162,9 +163,7 @@
     <Compile Include="Models\Pages\StartPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\Media\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
