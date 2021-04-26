@@ -1,0 +1,16 @@
+﻿@model  EpiBootstrapper.Core.Models.Blocks.ListingBlock
+
+<p>@Model.Name</p>
+
+<div>
+    @if(@Model.Items != null){
+        {
+            foreach (var item in Model.Items)
+            {
+                <p> @item.Name - @item.Description</p>
+            }
+        }
+    }
+</div>
+
+                @* <img src="@Url.ContentUrl(item.Image)"> *@

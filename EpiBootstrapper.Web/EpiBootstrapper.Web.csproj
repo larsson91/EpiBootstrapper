@@ -237,8 +237,9 @@
     <Compile Include="ViewModels\PageViewModelBase.cs" />
     <Compile Include="ViewModels\StartPageViewModel.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
+    <Content Include="Views\Blocks\ListingBlock.cshtml" />
+    <Content Include="Views\Blocks\TextBlock.cshtml" />
     <Content Include="Views\Web.config" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
@@ -273,6 +274,10 @@
       <Project>{346f8a8d-cfb9-460e-b64d-a2d27b06fbb2}</Project>
       <Name>EpiBootstrapper.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\css" />
+    <Folder Include="Content\javascript" />
   </ItemGroup>
   <ProjectExtensions>
     <VisualStudio>

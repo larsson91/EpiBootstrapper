@@ -11,5 +11,6 @@ namespace  EpiBootstrapper.Core.Models.Pages
 	[ThumbnailImage(Constants.ContentTypes.Graphics.ImageWithText)]
 	public class ArticlePage : PageBase
 	{
+
 	}
 }

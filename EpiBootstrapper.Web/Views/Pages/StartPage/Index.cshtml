@@ -1,5 +1,9 @@
-﻿@model EpiBootstrapper.ViewModels.StartPageViewModel
+﻿@using EPiServer.Web.Mvc.Html
+@model EpiBootstrapper.ViewModels.StartPageViewModel
 
+<h2>Startsida</h2>
 
-<h2>Startsida för EPi-bootstrap</h2>
- 
+ @Html.PropertyFor(x => x.CurrentPage.ContentArea)
+
+ <img src="@Url.ContentUrl(Model.CurrentPage.ImageFile)"/>
+

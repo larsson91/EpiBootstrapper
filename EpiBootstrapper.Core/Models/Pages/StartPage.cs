@@ -1,4 +1,5 @@
 ﻿using  EpiBootstrapper.Core.Infrastructure;
+using EPiServer.Core;
 
 namespace  EpiBootstrapper.Core.Models.Pages
 {
@@ -11,5 +12,10 @@ namespace  EpiBootstrapper.Core.Models.Pages
 	[ThumbnailImage(Constants.ContentTypes.Graphics.House)]
 	public class StartPage : PageBase
 	{
+		public virtual ContentArea ContentArea { get; set; }
+		
+		public virtual ContentReference ImageFile { get; set; }
 	}
+	
+	//<img src="@Url.ContentUrl(Model.CurrentPage.Image)"/>bat
 }

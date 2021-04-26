@@ -1,7 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using EpiBootstrapper.Core.Infrastructure;
 using EPiServer.Core;
-using EPiServer.DataAnnotations;
 
 namespace EpiBootstrapper.Core.Models.Pages
 {

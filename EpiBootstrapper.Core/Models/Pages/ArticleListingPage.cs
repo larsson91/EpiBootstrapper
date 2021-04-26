@@ -1,4 +1,7 @@
-﻿using  EpiBootstrapper.Core.Infrastructure;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using  EpiBootstrapper.Core.Infrastructure;
+using EPiServer.Core;
 
 namespace  EpiBootstrapper.Core.Models.Pages
 {
@@ -11,5 +14,6 @@ namespace  EpiBootstrapper.Core.Models.Pages
 	[ThumbnailImage(Constants.ContentTypes.Graphics.ImageWithText)]
 	public class ArticleListingPage : PageBase
 	{
+
 	}
 }

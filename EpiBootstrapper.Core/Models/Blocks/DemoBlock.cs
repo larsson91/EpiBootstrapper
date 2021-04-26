@@ -11,5 +11,7 @@ namespace EpiBootstrapper.Core.Models.Blocks
         [Display(Name = "Text",
             Order = 1000)]
         public virtual string Text { get; set; }
+
+        public virtual ContentReference Image { get; set; }
     }
 }
