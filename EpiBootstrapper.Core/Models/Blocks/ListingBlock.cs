@@ -13,7 +13,6 @@ namespace EpiBootstrapper.Core.Models.Blocks
     {
         public virtual string Name { get; set; }
 
-        [EditorDescriptor(EditorDescriptorType = typeof(CollectionEditorDescriptor<ListItem>))]
         public virtual IList<ListItem> Items { get; set; }
     }
 }
