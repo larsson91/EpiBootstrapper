@@ -1,4 +1,5 @@
 ﻿@using EPiServer.Web.Mvc.Html
+@using System.Web.Optimization
 
 <!DOCTYPE html>
 <html lang="@Model.CurrentPage.LanguageBranch">
@@ -6,18 +7,22 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link href='https://fonts.googleapis.com/css?family=Adamina' rel='stylesheet'>
+    @Styles.Render("~/Static/css")
     <title>@Model.Layout.PageTitle</title>
 </head>
 <body class="no-js">
+    <nav class="navbar">
+        <a href="/">Home</a> |
+        <a href="/en/About">About</a> |
+        <a href="/en/Contact">Contact</a> |
+    </nav>
     @Html.RenderEPiServerQuickNavigator()
-    
+
     @RenderBody()
 
     <footer class="footer">
-        
     </footer>
-    
     @*@Scripts.Render("~/Static/scripts")*@
 </body>
 </html>

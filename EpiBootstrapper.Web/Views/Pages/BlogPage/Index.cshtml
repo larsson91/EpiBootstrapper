@@ -1,4 +1,5 @@
-﻿@model EpiBootstrapper.ViewModels.BlogPageViewModel
+﻿@*import, typ.*@
+@model EpiBootstrapper.ViewModels.BlogPageViewModel
 
 
 <h1>@Model.CurrentPage.Header</h1>
@@ -7,4 +8,4 @@
 
 
 
-<a href="@Url.ContentUrl(Model.CurrentPage.Image)">länk</a>
+<img src="@Url.ContentUrl(Model.CurrentPage.Image)" alt="cat" width="100px" />
